@@ -1,0 +1,53 @@
+.DescriptionWrapper{
+    padding-left:15%;
+    padding-right:5%;
+}
+.DescHeader{
+    max-width:400px;
+    font-size:60px;
+    font-weight:900;
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    line-height: 10px;
+    
+}
+.DescHeader>div{
+    width:10px;
+    height:10px;
+    margin-top: 17px;
+    background-color:#5243C0;
+}
+.Desctext{
+    color:#8A8684;
+    font-size:16px;
+}
+.Buttons{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+   
+}
+.DescBtn{
+    background-color: #5243C0;
+    border:none;
+    outline:none;
+    padding:16px 30px;
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+    border-radius:20px;
+    margin-top:20px;
+}
+.DescArrBtn{
+    margin-left:70px;
+    border:none;
+    outline:none;
+    background-color:#fff;
+}
+@media screen and (max-width:900px){
+    .DescriptionWrapper{
+       min-width:40%;
+    }
+    .DescHeader{
+        font-size:45px;
+    }
+}

@@ -1,0 +1,8 @@
+.LeftContainer{
+    width:35%;
+}
+@media screen and (max-width:600px){
+    .LeftContainer{
+        min-width:400px;
+    }
+}

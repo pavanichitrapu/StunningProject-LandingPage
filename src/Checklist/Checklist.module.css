@@ -1,0 +1,83 @@
+.Checklist{
+    position:absolute;
+    top:480px;
+    left:250px;
+    width:24%;
+}
+.Card{
+    margin-top:15px;
+    height:40px;
+    background-color:#f9f9f9;
+    border:1px solid #fefefe;
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+.SmallBtnPink{
+    background-color:#FFD8DB;
+    width:20px;
+    height:10px;
+    border-radius: 5px;
+}
+.User{
+    width:30px;
+   
+}
+.SmallBtnOrange{
+    background-color:#FD6534;
+    width:20px;
+    height:10px;
+    border-radius: 5px;
+}
+.SmallBtnBlue{
+    background-color:#9FD197;
+    width:20px;
+    height:10px;
+    border-radius: 5px;
+}
+.SmallBtnRed{
+    background-color:#FFE3A1;
+    width:20px;
+    height:10px;
+    border-radius: 5px;
+}
+.CardHighlight{
+    background-color:#fff;
+    height:40px;
+    border:1px solid #fefefe;
+    border-radius:5px;
+    display:flex;
+    margin-top:15px;
+    align-items:center;
+    justify-content: space-between;
+}
+p{
+    font-size:14px;
+}
+
+@media screen and (max-width:600px){
+    .Card,.CardHighlight{
+        width:350px;
+        margin:2%;
+    }
+    .Checklist{
+        position:relative;
+        top:10px;
+        left:20px;
+    }
+}
+@media screen and (max-width:900px){
+    .Card,.CardHighlight{
+       width:350px;
+        margin:2%;
+       }
+    .Checklist{
+        position:relative;
+        top:1%;
+        left:40px;
+        margin-bottom:10px;
+        
+    }
+}
